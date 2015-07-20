@@ -266,7 +266,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 1000px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -368,6 +368,28 @@ Full-Width Styles
   background: #212121;
 }
 
+.content_line {
+	background:white;
+	padding: 5px;
+	border: 1px grey;
+	display:inline-block;
+	box-shadow: 0px 0px 10px 2px #888888;
+}
+.content_line p:after{
+	content:'';
+	display:block;
+	background:rgb(221,221,221);
+	height:1px;
+}
+
+.myImg{
+	border:none;
+}
+
+p{
+	padding:5px;
+	margin:0px;
+}
 
 
 /*******************************************************************************
